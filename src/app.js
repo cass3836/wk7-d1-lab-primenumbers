@@ -1,6 +1,6 @@
 const FormView = require('./views/form-view.js');
-const ResultView = require('./views/result-view.js');
 const PrimeChecker = require('./models/prime-checker.js');
+const ResultView = require('./views/result-view.js');
 
 document.addEventListener('DOMContentLoaded', () => {
   const formView = new FormView();
